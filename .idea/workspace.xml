@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3740fce2-8d2b-497d-b994-cfcbe4e9bdd6" name="Changes" comment="uebung9 seminarraum">
+    <list default="true" id="3740fce2-8d2b-497d-b994-cfcbe4e9bdd6" name="Changes" comment="uebung9 update1">
+      <change afterPath="$PROJECT_DIR$/src/test/java/de/htw_berlin/imi/db/services/SeminarRaumEntityServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/de/htw_berlin/imi/db/services/SeminarRaumEntityService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/htw_berlin/imi/db/services/SeminarRaumEntityService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +78,7 @@
       <recent name="de.htw_berlin.imi.db.services" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.JdbcSampleApplication">
+  <component name="RunManager" selected="JUnit.SeminarRaumEntityServiceTest">
     <configuration name="JdbcSampleApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="de.htw_berlin.imi.db.JdbcSampleApplication" />
       <module name="htw-jdbc-sample" />
@@ -139,6 +139,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SeminarRaumEntityServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="htw-jdbc-sample" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.htw_berlin.imi.db.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="de.htw_berlin.imi.db.services" />
+      <option name="MAIN_CLASS_NAME" value="de.htw_berlin.imi.db.services.SeminarRaumEntityServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="htw-jdbc-sample" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="de.htw_berlin.imi.db.JdbcSampleApplication" />
@@ -148,9 +163,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SeminarRaumEntityServiceTest" />
+        <item itemvalue="JUnit.BueroRaumEntityServiceTest" />
         <item itemvalue="Application.JdbcSampleApplication" />
         <item itemvalue="JUnit.BueroRaumEntityServiceTest.cannotfindById" />
-        <item itemvalue="JUnit.BueroRaumEntityServiceTest" />
         <item itemvalue="JUnit.BueroRaumEntityServiceTest.findAll" />
       </list>
     </recent_temporary>
@@ -173,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655134428290</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="uebung9 update1">
+      <created>1655134837580</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1655134837580</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,7 +216,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="uebung9" />
     <MESSAGE value="uebung9 seminarraum" />
-    <option name="LAST_COMMIT_MESSAGE" value="uebung9 seminarraum" />
+    <MESSAGE value="uebung9 update1" />
+    <option name="LAST_COMMIT_MESSAGE" value="uebung9 update1" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
