@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <link href="/main.css" rel="stylesheet" type="text/css">
+    <title>Studierenden</title>
+</head>
+
+<body>
+<h2>Studierenden</h2>
+
+<div th:each="c: ${studierenden}" th:value="${c}">
+    <div>
+        <label>Id</label>
+        <span th:text="${c.id}"></span>
+    </div>
+    <div>
+        <label>Name</label>
+        <span th:text="${c.name}"></span>
+    </div>
+    <div>
+        <label>Vorname</label>
+        <span th:text="${c.vorname}"></span>
+    </div>
+    <div>
+        <label>Geburtsdatum</label>
+        <span th:text="${c.geburtsdatum}"></span>
+    </div>
+    <div>
+        <label>Geburtsort</label>
+        <span th:text="${c.geburtsort}"></span>
+    </div>
+    <div>
+        <label>Anzahl_Semester</label>
+        <span th:text="${c.anzahl_semester}"></span>
+    </div>
+    <div>
+        <label>Studienbeginn</label>
+        <span th:text="${c.studienbeginn}"></span>
+    </div>
+
+</div>
+</body>
