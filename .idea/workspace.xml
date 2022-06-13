@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3740fce2-8d2b-497d-b994-cfcbe4e9bdd6" name="Changes" comment="uebung9 update2">
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/htw_berlin/imi/db/web/SeminarRaumMvcController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/seminarraeume.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/seminarraum-details.html" afterDir="false" />
+    <list default="true" id="3740fce2-8d2b-497d-b994-cfcbe4e9bdd6" name="Changes" comment="uebung9 update3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/start.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/start.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/seminarraum-details.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/seminarraum-details.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -208,7 +205,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655135507331</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="uebung9 update3">
+      <created>1655138362560</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1655138362560</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -230,7 +234,8 @@
     <MESSAGE value="uebung9 seminarraum" />
     <MESSAGE value="uebung9 update1" />
     <MESSAGE value="uebung9 update2" />
-    <option name="LAST_COMMIT_MESSAGE" value="uebung9 update2" />
+    <MESSAGE value="uebung9 update3" />
+    <option name="LAST_COMMIT_MESSAGE" value="uebung9 update3" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

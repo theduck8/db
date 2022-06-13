@@ -9,7 +9,7 @@
 <body>
 <h2>Seminarraeume</h2>
 
-<div th:each="b: ${seminarraeume}" th:value="${s}">
+<div th:each="s: ${seminarraeume}" th:value="${s}">
     <div>
         <label>Id</label>
         <span th:text="${s.id}"></span>
