@@ -9,6 +9,7 @@ package de.htw_berlin.imi.db.web;
  */
 public class BueroDto {
 
+    private long id;
     private String name;
 
     private String raumnummer;
@@ -16,7 +17,9 @@ public class BueroDto {
     private int kapazitaet;
 
     // TODO: add missing fields
-
+    public long getId() {
+        return id;
+    }
 
     public String getName() {
         return name;

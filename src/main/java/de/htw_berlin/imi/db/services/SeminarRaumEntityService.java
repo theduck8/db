@@ -36,6 +36,16 @@ public class SeminarRaumEntityService extends AbstractEntityService<SeminarRaum>
     private static final String FIND_BY_ID_QUERY = FIND_ALL_QUERY + " WHERE ID = ";
 
     @Override
+    public SeminarRaum create() {
+        return null;
+    }
+
+    @Override
+    public void save(SeminarRaum entity) {
+
+    }
+
+    @Override
     public List<SeminarRaum> findAll() {
         final List<SeminarRaum> result = new ArrayList<>();
         try {

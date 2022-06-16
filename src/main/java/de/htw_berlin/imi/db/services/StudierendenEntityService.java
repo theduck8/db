@@ -36,6 +36,16 @@ public class StudierendenEntityService extends AbstractEntityService<Studierende
     private static final String FIND_BY_ID_QUERY = FIND_ALL_QUERY + " WHERE ID = ";
 
     @Override
+    public Studierenden create() {
+        return null;
+    }
+
+    @Override
+    public void save(Studierenden entity) {
+
+    }
+
+    @Override
     public List<Studierenden> findAll() {
         final List<Studierenden> result = new ArrayList<>();
         try {
