@@ -1,13 +1,6 @@
 package de.htw_berlin.imi.db.web;
 
-/**
- * Data transfer object (DTO) class:
- * decouples representation from the entity class.
- * <p>
- * NB: we cannot create BueroRaum objects without an id.
- * Objects of this class simply hold field values
- */
-public class BueroDto {
+public class SeminarraumDto {
 
     private long id;
     private String name;
@@ -37,14 +30,6 @@ public class BueroDto {
         this.name = name;
     }
 
-    public String getRaumnummer() {
-        return raumnummer;
-    }
-
-    public void setRaumnummer(final String raumnummer) {
-        this.raumnummer = raumnummer;
-    }
-
     public int getKapazitaet() {
         return kapazitaet;
     }
@@ -68,4 +53,5 @@ public class BueroDto {
     public void setHoehe(final double hoehe) {
         this.hoehe = hoehe;
     }
+
 }

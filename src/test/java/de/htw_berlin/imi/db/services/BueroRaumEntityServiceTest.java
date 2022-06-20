@@ -74,11 +74,14 @@ class BueroRaumEntityServiceTest {
     @Test
     void createFrom() {
         final BueroDto bueroRaum = new BueroDto();
+        final int id = 12;
         final String roomNumber = "#17";
         final String name = "Test Room " + roomNumber;
         bueroRaum.setRaumnummer(roomNumber);
         bueroRaum.setName(name);
         bueroRaum.setKapazitaet(2);
+        bueroRaum.setFlaeche(99.5);
+        bueroRaum.setHoehe(3.5);
 
         final BueroRaum from = bueroRaumEntityService.createFrom(bueroRaum);
 
@@ -88,6 +91,9 @@ class BueroRaumEntityServiceTest {
         assertThat(bueroRaumOptional.get().getRaumnummer()).isEqualTo(roomNumber);
         assertThat(bueroRaumOptional.get().getKapazitaet()).isEqualTo(2);
         // TODO alle Attribute prüfen
+        assertThat(bueroRaumOptional.get().getFlaeche()).isEqualTo(99.5);
+        assertThat(bueroRaumOptional.get().getHoehe()).isEqualTo(3.5);
+
     }
 
 }

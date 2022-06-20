@@ -1,20 +1,30 @@
-package de.htw_berlin.imi.db.entities;
+package de.htw_berlin.imi.db.web;
 
-public class Studierenden extends Entity {
+/**
+ * Data transfer object (DTO) class:
+ * decouples representation from the entity class.
+ * <p>
+ * NB: we cannot create Studierenden objects without an id.
+ * Objects of this class simply hold field values
+ */
+public class StudierendenDto {
 
     private long id;
+
     private long matr_nr;
     private String name;
+
     private String vorname;
+
     private String geburtsdatum;
+
     private String geburtsort;
+
     private int anzahl_semester;
+
     private String studienbeginn;
 
-    public Studierenden(long id) {
-        super(id);
-    }
-
+    // TODO: add missing fields
     public long getId() {
         return id;
     }
@@ -51,8 +61,8 @@ public class Studierenden extends Entity {
         return geburtsdatum;
     }
 
-    public void setGeburtsdatum(final String geburtsdatum) {
-        this.geburtsdatum = geburtsdatum;
+    public void setGeburtsdatum(final String gebutrsdatum) {
+        this.geburtsdatum = gebutrsdatum;
     }
 
     public String getGeburtsort() {
@@ -78,5 +88,4 @@ public class Studierenden extends Entity {
     public void setStudienbeginn(final String studienbeginn) {
         this.studienbeginn = studienbeginn;
     }
-
 }

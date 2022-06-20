@@ -9,6 +9,52 @@
 <body>
 <h2>Studierenden</h2>
 
+<h3>New</h3>
+<div>
+    <form th:action="@{'/ui/studierenden'}"
+          th:object="${studierendeTemplate}"
+          method="POST"
+          enctype="multipart/form-data"
+          action="#">
+        <div>
+            <label>Matr_nr</label>
+            <input id="Matr_nr" type="long" th:field="*{Matr_nr}"/>
+        </div>
+        <div>
+            <label>Name</label>
+            <input id="Name" type="text" th:field="*{name}"
+                   placeholder="Enter Name"/>
+        </div>
+        <div>
+            <label>Vorname</label>
+            <input id="Vorname" type="text" th:field="*{name}"
+                   placeholder="Enter Vorname"/>
+        </div>
+        <div>
+            <label>Geburtsdatum</label>
+            <input id="Geburtsdatum" type="text" th:field="*{geburtsdatum}"
+                   placeholder="Enter Geb_datum"/>
+        </div>
+        <div>
+            <label>Geburtsort</label>
+            <input id="Geburtsort" type="text" th:field="*{geburtsort}"
+                   placeholder="Enter Geburtsort"/>
+        </div>
+        <div>
+            <label>Anzahl_semester</label>
+            <input id="Anzahl_semester" type="int" th:field="*{anzahl_semester}"/>
+        </div>
+        <div>
+            <label>Studienbeginn</label>
+            <input id="Studienbeginn" type="text" th:field="*{studienbeginn}"
+                   placeholder="Enter Studienbeginn"/>
+        </div>
+
+        <input type="submit" width="60" class="btn" value="save"/>
+    </form>
+</div>
+
+<h3>List</h3>
 <table>
     <thead>
     <tr>

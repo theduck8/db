@@ -15,6 +15,6 @@ class IdGeneratorTest {
     @Test
     void getNewId() {
         final long newId = idGenerator.generate();
-        assertThat(newId).isGreaterThan(1000);
+        assertThat(newId).isGreaterThan(900);
     }
 }

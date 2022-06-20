@@ -9,6 +9,38 @@
 <body>
 <h2>Seminarraeume</h2>
 
+<h3>New</h3>
+<div>
+    <form th:action="@{'/ui/seminarraeume'}"
+          th:object="${seminarTemplate}"
+          method="POST"
+          enctype="multipart/form-data"
+          action="#">
+        <div>
+            <label>name</label>
+            <input id="Name" type="text" th:field="*{name}"
+                   placeholder="Enter Name"/>
+        </div>
+        <div>
+            <label>Kapazität</label>
+            <input id="Kapazität" type="number" th:field="*{kapazitaet}"/>
+        </div>
+        <!-- TODO: fehlende Attribute ergänzen -->
+        <div>
+            <label>Flaeche</label>
+            <input id="Flaeche" type="long" th:field="*{flaeche}"/>
+        </div>
+        <div>
+            <label>Hoehe</label>
+            <input id="hoehe" type="long" th:field="*{hoehe}"/>
+        </div>
+
+        <input type="submit" width="60" class="btn" value="save"/>
+    </form>
+</div>
+
+<h3>List</h3>
+
 <table>
     <thead>
     <tr>
